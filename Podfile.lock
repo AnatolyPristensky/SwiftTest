@@ -1,0 +1,33 @@
+PODS:
+  - AppCenter (3.3.4):
+    - AppCenter/Analytics (= 3.3.4)
+    - AppCenter/Crashes (= 3.3.4)
+  - AppCenter/Analytics (3.3.4):
+    - AppCenter/Core
+  - AppCenter/Core (3.3.4)
+  - AppCenter/Crashes (3.3.4):
+    - AppCenter/Core
+  - AppCenter/Distribute (3.3.4):
+    - AppCenter/Core
+  - AppCenter/Push (3.3.4):
+    - AppCenter/Core
+  - VSMobileCenterExtensions (0.9.1)
+
+DEPENDENCIES:
+  - AppCenter
+  - AppCenter/Distribute
+  - AppCenter/Push
+  - VSMobileCenterExtensions
+
+SPEC REPOS:
+  trunk:
+    - AppCenter
+    - VSMobileCenterExtensions
+
+SPEC CHECKSUMS:
+  AppCenter: 0487be185c038ed2ecc5ed38219af1dcd280af23
+  VSMobileCenterExtensions: 5f8b4b284f6817c1d58e860bf7ad0945f1244733
+
+PODFILE CHECKSUM: 88dda23b55749ff77cb7e2a56e89be563b7f6a81
+
+COCOAPODS: 1.10.1
